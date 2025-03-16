@@ -12,7 +12,8 @@ app.use(express.json());
 
 // CORS Configuration (Only Local for Now)
 const allowedOrigins = [
-  "http://localhost:5173", // Local frontend for testing
+  "http://localhost:5173",// Local frontend for testing
+  "https://loan-ok.vercel.app/",
 ];
 
 app.use(

@@ -14,6 +14,7 @@ app.use(express.json());
 const allowedOrigins = [
   "http://localhost:5173",// Local frontend for testing
   "https://loan-ok.vercel.app/",
+  "https://www.loanok.in/",
 ];
 
 app.use(
